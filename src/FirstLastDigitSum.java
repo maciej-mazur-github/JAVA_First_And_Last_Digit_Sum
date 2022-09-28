@@ -12,7 +12,7 @@ public class FirstLastDigitSum {
             number /= 10;
             mostSignificantDigit = number;
 
-        } while (number != 0);
+        } while (number / 10 != 0);
 
         return mostSignificantDigit + leastSignificantDigit;
     }
